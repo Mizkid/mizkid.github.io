@@ -1,0 +1,202 @@
+:root {
+    --bg-color: white;
+    --text-color: black;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    font-family: "heebo";
+    height: 100%;
+    min-height: 100vh;
+    text-align: center;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-style: normal;
+}
+
+p {
+    font: 18px bold;
+}
+
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    gap: 33px;
+    background-color: var(--bg-color);
+    height: 80px;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 40px 0;
+}
+
+.content-1 {
+
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.content-1-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    text-align: left;
+}
+
+.button1 {
+    background-color: orangered;
+    border-radius: 2px;
+    border: hidden;
+    width: 200px;
+    color: #ffff;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+}
+
+.image {
+    border-radius: 20px;
+    height: 246px;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    background-color: rgb(217, 240, 247);
+    padding: 30px 0;
+    font-family: "Heebo";
+}
+
+.content-2-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+    font-weight: bold;
+}
+
+.content-2-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(214, 240, 248);
+    gap: 40px;
+
+}
+
+.content-2-1-colored {
+    color: blue;
+    text-decoration: underline;
+    border: hidden;
+    background-color: rgb(217, 240, 247);
+    cursor: pointer;
+}
+
+.content-items {
+    width: 35.2%;
+    /* height: 28vh;*/
+    background-color: var(--bg-color);
+    text-align: left;
+    gap: 30px;
+    padding: 0 15px 0 15px;
+}
+
+.content-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    background-color: var(--bg-color);
+    font-family: "Heebo";
+}
+
+.image-repo {
+    height: 200px;
+    width: 240px;
+    min-width: 240px;
+}
+
+.span-section {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
+span {
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    padding: 2px 6px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.paragraph {
+    color: rgb(141, 139, 139);
+}
+
+.content-3-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+    margin-bottom: 10px;
+
+}
+
+.content-3-2 {
+    display: flex;
+    width: 800px;
+    align-items: left;
+    text-align: left;
+    gap: 16px;
+    padding: 0 150px;
+}
+
+.seperator {
+    border: 1px solid rgb(240, 239, 239);
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding-top: 70px;
+    width: 100%;
+    height: 180px;
+    gap: 20px;
+}
+
+
+.footer-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.image-logo {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
